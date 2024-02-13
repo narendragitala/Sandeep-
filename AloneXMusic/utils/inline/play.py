@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "ᴀꜱɪꜰ·─·─·─·─·─·─·─·─·─"
+        bar = "RADHE·─·─·─·─·─·─·─·─·─"
     elif 10 < umm < 20:
-        bar = "-ˋˏᴀꜱɪꜰ·─·─·─·─·─·─·─·─"
+        bar = "-ˋˏRADHE·─·─·─·─·─·─·─·─"
     elif 20 <= umm < 30:
-        bar = "-ˋˏ-ˋˏᴀꜱɪꜰ·─·─·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏRADHE·─·─·─·─·─·─·─"
     elif 30 <= umm < 40:
-        bar = "-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏRADHE·─·─·─·─·─·─"
     elif 40 <= umm < 50:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·─·─·─·─·─"
     elif 50 <= umm < 60:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·─·─·─·─"
     elif 60 <= umm < 70:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·─·─·─"
     elif 70 <= umm < 80:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·─·─"
     elif 80 <= umm < 95:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·─"
     else:
-        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏᴀꜱɪꜰ·"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏRADHE·"
     buttons = [
                 [
             InlineKeyboardButton(
@@ -78,7 +78,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="✪ɢʀᴏᴜᴘ✪",
 
-                url=f"https://t.me/BESTODISHA",
+                url=f"https://t.me/RADHE_KI_NAGRI",
 
             ),
         ],
@@ -108,7 +108,7 @@ def stream_markup(_, chat_id):
 
                 text="✪ɢʀᴏᴜᴘ✪",
 
-                url=f"https://t.me/BESTODISHA",
+                url=f"https://t.me/RADHE_KI_NAGRI",
 
             ),
         ],
