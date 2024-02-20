@@ -78,7 +78,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="✪ɢʀᴏᴜᴘ✪",
 
-                url=f"https://t.me/jalimduniyamechalo",
+                url=f"https://t.me/RADHE_KI_NAGRI",
 
             ),
         ],
@@ -108,7 +108,7 @@ def stream_markup(_, chat_id):
 
                 text="✪ɢʀᴏᴜᴘ✪",
 
-                url=f"https://t.me/jalimduniyamechalo",
+                url=f"https://t.me/RADHE_KI_NAGRI",
 
             ),
         ],
